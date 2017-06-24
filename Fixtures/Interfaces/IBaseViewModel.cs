@@ -4,6 +4,7 @@ namespace Fixtures.Interfaces
 {
     public interface IBaseViewModel
     {
-        NameModel Name { get; }
+        NameModel Name1 { get; set; }
+        NameModel Name2 { get; set; }
     }
 }

@@ -13,7 +13,8 @@
            <Label Content="{Binding Name}"/>
        </DataTemplate>
    </UserControl.Resources>
-    <Grid>
-        <ContentPresenter ContentTemplate="{StaticResource dt}" Content="{Binding Path=Name}"/>
-    </Grid>
+    <StackPanel Orientation="Horizontal">
+        <ContentPresenter ContentTemplate="{DynamicResource dt}" Content="{Binding Path=Name1}"/>
+        <ContentPresenter ContentTemplate="{DynamicResource dt}" Content="{Binding Path=Name2}"/>
+    </StackPanel>
 </UserControl>

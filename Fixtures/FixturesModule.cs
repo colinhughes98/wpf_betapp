@@ -34,6 +34,8 @@ namespace Fixtures
             _container.RegisterType<IBaseViewModel, HelloWorldViewModel>();
 
             _regionManager.RegisterViewWithRegion("MainRegion", typeof(HelloWorld));
+       
+        
         }
     }
 
