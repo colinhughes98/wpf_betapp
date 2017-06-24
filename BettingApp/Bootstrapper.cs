@@ -29,5 +29,11 @@ namespace BettingApp
             ModuleCatalog moduleCatalog = (ModuleCatalog)ModuleCatalog;
             moduleCatalog.AddModule(typeof(Fixtures.FixturesModule));
         }
+
+        protected override void ConfigureContainer()
+        {
+            base.ConfigureContainer();
+            
+        }
     }
 }

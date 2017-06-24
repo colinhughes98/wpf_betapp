@@ -12,11 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Fixtures.Interfaces;
 
 namespace Fixtures.Views
 {
     /// <summary>
-    /// Interaction logic for HelloWorld.xaml
+    /// Interaction logic for HelloWorldViewModel.xaml
     /// </summary>
     public partial class HelloWorld : UserControl
     {
@@ -24,5 +25,6 @@ namespace Fixtures.Views
         {
             InitializeComponent();
         }
+
     }
 }
